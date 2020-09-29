@@ -10,7 +10,8 @@
     "start:watch": "nodemon -r dotenv/config server.js"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testTimeout": 10000
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "json": "^10.0.0",
